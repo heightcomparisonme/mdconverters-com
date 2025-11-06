@@ -1,5 +1,5 @@
 import Container from '@/components/layout/container';
-import { MdToPdfConverterEnhanced } from '@/components/tools/md-to-pdf-converter-enhanced';
+import { MdToPdfConverterEnhanced } from '@/components/tools/md-to-pdf/md-to-pdf-converter-enhanced';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

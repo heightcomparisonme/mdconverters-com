@@ -428,14 +428,14 @@ function EditorPanel({
 
 	return (
 		<Card
-			className={`relative overflow-hidden transition-all ${
+			className={`relative overflow-hidden transition-all h-[600px] ${
 				isDragging ? 'border-primary border-2 bg-primary/5' : ''
 			}`}
 			onDragOver={handleDragOver}
 			onDragLeave={handleDragLeave}
 			onDrop={handleFileDrop}
 		>
-			<div className="flex h-[600px]">
+			<div className="flex h-full">
 				{/* Line numbers */}
 				<div className="w-12 bg-muted/30 text-muted-foreground text-xs font-mono p-4 select-none overflow-hidden">
 					{Array.from({ length: lineCount }, (_, i) => (
