@@ -14,7 +14,10 @@ export async function getBrowserConfig(puppeteer: PuppeteerLike): Promise<Launch
 	if (!isProduction) {
 		return {
 			headless: true,
-			args: ['--no-sandbox', '--disable-setuid-sandbox'],
+			args: puppeteer.defaultArgs({
+				args: ['--no-sandbox', '--disable-setuid-sandbox'],
+				headless: true,
+			}),
 		};
 	}
 
@@ -41,7 +44,10 @@ export async function getBrowserConfig(puppeteer: PuppeteerLike): Promise<Launch
 			// Fallback to default (will likely fail on Vercel)
 			return {
 				headless: true,
-				args: ['--no-sandbox', '--disable-setuid-sandbox'],
+				args: puppeteer.defaultArgs({
+					args: ['--no-sandbox', '--disable-setuid-sandbox'],
+					headless: true,
+				}),
 			};
 		}
 	}
@@ -49,13 +55,20 @@ export async function getBrowserConfig(puppeteer: PuppeteerLike): Promise<Launch
 	// Production on other platforms (e.g., VPS, Docker)
 	return {
 		headless: true,
-		args: [
-			'--no-sandbox',
-			'--disable-setuid-sandbox',
-			'--disable-dev-shm-usage',
-			'--disable-accelerated-2d-canvas',
-			'--disable-gpu',
-		],
+		args: puppeteer.defaultArgs({
+			args: [
+				'--no-sandbox',
+				'--disable-setuid-sandbox',
+				'--disable-dev-shm-usage',
+				'--disable-accelerated-2d-canvas',
+				'--disable-gpu',
+				// --- 推荐添加以下两个，提高 Docker 稳定性 ---
+				'--disable-crash-reporter', // 禁用崩溃报告，解决 crashpad 错误
+				'--single-process',         // 某些精简容器环境可能需要
+				// --- 推荐添加结束 ---
+			],
+			headless: true,
+		}),
 	};
 }
 
