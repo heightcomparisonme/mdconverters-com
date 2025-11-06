@@ -5,7 +5,7 @@ import type { WebsiteConfig } from '@/types';
  * website config, without translations
  *
  * docs:
- * https://mksaas.com/docs/config/website
+ * https://MDConverters.com/docs/config/website
  */
 export const websiteConfig: WebsiteConfig = {
   ui: {
@@ -25,13 +25,13 @@ export const websiteConfig: WebsiteConfig = {
       logoDark: '/logo-dark.png',
     },
     social: {
-      github: 'https://github.com/MkSaaSHQ',
-      twitter: 'https://mksaas.link/twitter',
-      blueSky: 'https://mksaas.link/bsky',
-      discord: 'https://mksaas.link/discord',
-      mastodon: 'https://mksaas.link/mastodon',
-      linkedin: 'https://mksaas.link/linkedin',
-      youtube: 'https://mksaas.link/youtube',
+      github: 'https://github.com/MDConvertersHQ',
+      twitter: 'https://MDConverters.link/twitter',
+      blueSky: 'https://MDConverters.link/bsky',
+      discord: 'https://MDConverters.link/discord',
+      mastodon: 'https://MDConverters.link/mastodon',
+      linkedin: 'https://MDConverters.link/linkedin',
+      youtube: 'https://MDConverters.link/youtube',
     },
   },
   features: {
@@ -80,8 +80,8 @@ export const websiteConfig: WebsiteConfig = {
   },
   mail: {
     provider: 'resend',
-    fromEmail: 'MkSaaS <support@mksaas.com>',
-    supportEmail: 'MkSaaS <support@mksaas.com>',
+    fromEmail: 'MDConverters <support@MDConverters.com>',
+    supportEmail: 'MDConverters <support@MDConverters.com>',
   },
   newsletter: {
     enable: true,
