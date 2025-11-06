@@ -150,7 +150,7 @@ export async function convertMarkdownToPdf(
 		await page.emulateMediaType(mergedConfig.page_media_type);
 
 		// Generate PDF
-		const pdfBuffer = await page.pdf(mergedConfig.pdf_options);
+		const pdfBuffer = (await page.pdf(mergedConfig.pdf_options)) as Uint8Array;
 
 		await browser.close();
 
