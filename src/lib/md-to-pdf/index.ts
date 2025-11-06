@@ -1,9 +1,10 @@
-import puppeteer, { type Browser } from 'puppeteer';
 import grayMatter from 'gray-matter';
 import { defaultMdToPdfConfig, type MdToPdfConfig } from './config';
 import { getHtml } from './get-html';
 import { getMarginObject } from './helpers';
-import { getBrowserConfig } from './browser-config';
+import { getBrowserConfig, getPuppeteerPackage } from './browser-config';
+import type { Browser } from 'puppeteer-core';
+import type { PuppeteerLike } from './types';
 
 export type { MdToPdfConfig } from './config';
 
@@ -71,8 +72,11 @@ export async function convertMarkdownToPdf(
 		// Generate HTML
 		const html = getHtml(md, mergedConfig);
 
+		// Load the appropriate puppeteer package (full vs core)
+		const puppeteer = await loadPuppeteer();
+
 		// Launch browser with environment-specific config
-		const browserConfig = await getBrowserConfig();
+		const browserConfig = await getBrowserConfig(puppeteer);
 		browser = await puppeteer.launch(browserConfig);
 
 		const page = await browser.newPage();
@@ -168,4 +172,14 @@ export async function convertMarkdownToPdf(
 			error: error instanceof Error ? error.message : 'Unknown error occurred',
 		};
 	}
+}
+
+async function loadPuppeteer(): Promise<PuppeteerLike> {
+	const packageName = getPuppeteerPackage();
+
+	if (packageName === 'puppeteer-core') {
+		return (await import('puppeteer-core')).default;
+	}
+
+	return (await import('puppeteer')).default;
 }

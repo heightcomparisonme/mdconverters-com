@@ -4,8 +4,9 @@
  */
 
 import type { LaunchOptions } from 'puppeteer-core';
+import type { PuppeteerLike } from './types';
 
-export async function getBrowserConfig(): Promise<LaunchOptions> {
+export async function getBrowserConfig(puppeteer: PuppeteerLike): Promise<LaunchOptions> {
 	const isProduction = process.env.NODE_ENV === 'production';
 	const isVercel = process.env.VERCEL === '1';
 
@@ -24,7 +25,10 @@ export async function getBrowserConfig(): Promise<LaunchOptions> {
 			const { default: chromium } = await import('@sparticuz/chromium');
 
 			return {
-				args: chromium.args,
+				args: puppeteer.defaultArgs({
+					args: chromium.args,
+					headless: 'shell',
+				}),
 				executablePath: await chromium.executablePath(),
 				headless: 'shell',
 			};
