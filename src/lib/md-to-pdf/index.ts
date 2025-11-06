@@ -3,6 +3,7 @@ import grayMatter from 'gray-matter';
 import { defaultMdToPdfConfig, type MdToPdfConfig } from './config';
 import { getHtml } from './get-html';
 import { getMarginObject } from './helpers';
+import { getBrowserConfig } from './browser-config';
 
 export type { MdToPdfConfig } from './config';
 
@@ -70,11 +71,9 @@ export async function convertMarkdownToPdf(
 		// Generate HTML
 		const html = getHtml(md, mergedConfig);
 
-		// Launch browser
-		browser = await puppeteer.launch({
-			headless: true,
-			args: ['--no-sandbox', '--disable-setuid-sandbox'],
-		});
+		// Launch browser with environment-specific config
+		const browserConfig = await getBrowserConfig();
+		browser = await puppeteer.launch(browserConfig);
 
 		const page = await browser.newPage();
 
@@ -151,8 +150,11 @@ export async function convertMarkdownToPdf(
 
 		await browser.close();
 
+		// Convert Uint8Array to Buffer for consistent return type
+		const buffer = Buffer.from(pdfBuffer);
+
 		return {
-			content: pdfBuffer,
+			content: buffer,
 			success: true,
 		};
 	} catch (error) {
