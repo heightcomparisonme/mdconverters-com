@@ -1,4 +1,4 @@
-import { MDConvertersLogo } from '@/components/layout/logo-MDConverters';
+import { MKSaaSLogo } from '@/components/layout/logo-mksaas';
 import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
@@ -15,9 +15,9 @@ export default function BuiltWithButton() {
     >
       <span>Built with</span>
       <span>
-        <MDConvertersLogo className="size-5 rounded-full" />
+        <MKSaaSLogo className="size-5 rounded-full" />
       </span>
-      <span className="font-semibold">MDConverters</span>
+      <span className="font-semibold">MKSaaS</span>
     </Link>
   );
 }
