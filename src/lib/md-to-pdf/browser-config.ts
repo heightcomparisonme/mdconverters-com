@@ -3,9 +3,9 @@
  * Handles Puppeteer setup for local development and Vercel deployment
  */
 
-import type { PuppeteerLaunchOptions } from 'puppeteer';
+import type { LaunchOptions } from 'puppeteer-core';
 
-export async function getBrowserConfig(): Promise<PuppeteerLaunchOptions> {
+export async function getBrowserConfig(): Promise<LaunchOptions> {
 	const isProduction = process.env.NODE_ENV === 'production';
 	const isVercel = process.env.VERCEL === '1';
 
@@ -21,13 +21,12 @@ export async function getBrowserConfig(): Promise<PuppeteerLaunchOptions> {
 	if (isVercel) {
 		try {
 			// Try to import @sparticuz/chromium (optional dependency)
-			const chromium = await import('@sparticuz/chromium');
+			const { default: chromium } = await import('@sparticuz/chromium');
 
 			return {
-				args: chromium.default.args,
-				defaultViewport: chromium.default.defaultViewport,
-				executablePath: await chromium.default.executablePath(),
-				headless: chromium.default.headless,
+				args: chromium.args,
+				executablePath: await chromium.executablePath(),
+				headless: 'shell',
 			};
 		} catch (error) {
 			console.warn(
