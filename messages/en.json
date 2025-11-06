@@ -1,8 +1,8 @@
 {
   "Metadata": {
     "name": "MD Converters",
-    "title": "MD Converters: Your All-in-One Markdown Conversion Hub",
-    "description": "MkSaaS is the best AI SaaS boilerplate. Make AI SaaS in days, simply and effortlessly"
+    "title": "MD Converters: Your All-in-One Markdown Conversion Hub | Free MD to PDF, MD to HTML & MD to Word",
+    "description": "Your ultimate online Markdown converter and MD to PDF tool. Convert .md files with ease, offering MD to HTML pages, MD to Word DOCX documents, and other formats in seconds. 100% free, simple, and high-quality conversions."
   },
   "Common": {
     "premium": "Premium",
@@ -47,247 +47,247 @@
   },
   "PricingPage": {
     "title": "Pricing",
-    "description": "Choose the plan that works best for you",
-    "subtitle": "Choose the plan that works best for you",
+    "description": "Choose the Markdown conversion plan that fits your publishing cadence.",
+    "subtitle": "Flexible options for personal projects and production teams.",
     "monthly": "Monthly",
     "yearly": "Yearly",
     "PricingCard": {
       "freePrice": "$0",
       "perMonth": "/month",
       "perYear": "/year",
-      "popular": "Popular",
-      "currentPlan": "Current Plan",
-      "yourCurrentPlan": "Your Current Plan",
-      "getStartedForFree": "Get Started For Free",
-      "getLifetimeAccess": "Get Lifetime Access",
-      "getStarted": "Get Started",
-      "notAvailable": "Not Available",
-      "daysTrial": "{days}-day free trial"
+      "popular": "Most popular",
+      "currentPlan": "Current plan",
+      "yourCurrentPlan": "Your current plan",
+      "getStartedForFree": "Start converting for free",
+      "getLifetimeAccess": "Get lifetime access",
+      "getStarted": "Choose plan",
+      "notAvailable": "Not available",
+      "daysTrial": "{days}-day fully featured trial"
     },
     "CheckoutButton": {
-      "loading": "Loading...",
-      "checkoutFailed": "Failed to open checkout page"
+      "loading": "Processing...",
+      "checkoutFailed": "We couldn't open the checkout page."
     }
   },
   "PricePlans": {
     "free": {
-      "name": "Free",
-      "description": "Basic features for personal use",
+      "name": "Starter",
+      "description": "Essential Markdown exports for personal projects.",
       "features": {
-        "feature-1": "Up to 3 projects",
-        "feature-2": "1 GB storage",
-        "feature-3": "Basic analytics",
-        "feature-4": "Community support"
+        "feature-1": "Convert up to 10 Markdown files per month.",
+        "feature-2": "MD to PDF, HTML, and Word DOCX outputs.",
+        "feature-3": "Auto-format headings, tables, and code blocks.",
+        "feature-4": "Seven-day export history."
       },
       "limits": {
-        "limit-1": "Custom domains",
-        "limit-2": "Custom branding",
-        "limit-3": "Lifetime updates"
+        "limit-1": "Batch conversion queue.",
+        "limit-2": "Custom brand templates.",
+        "limit-3": "Priority support."
       }
     },
     "pro": {
       "name": "Pro",
-      "description": "Advanced features for professionals",
+      "description": "Advanced automation for teams shipping documentation weekly.",
       "features": {
-        "feature-1": "Unlimited projects",
-        "feature-2": "10 GB storage",
-        "feature-3": "Advanced analytics",
-        "feature-4": "Priority support",
-        "feature-5": "Custom domains"
+        "feature-1": "Unlimited Markdown conversions.",
+        "feature-2": "Bulk uploads and scheduled exports.",
+        "feature-3": "MD to PDF, HTML, Word, EPUB, and PPTX.",
+        "feature-4": "Custom themes and brand presets.",
+        "feature-5": "Team workspaces with shared history."
       },
       "limits": {
-        "limit-1": "Custom branding",
-        "limit-2": "Lifetime updates"
+        "limit-1": "Dedicated success manager.",
+        "limit-2": "Self-hosted deployment options."
       }
     },
     "lifetime": {
       "name": "Lifetime",
-      "description": "Premium features with one-time payment",
+      "description": "One-time purchase for agencies that live in Markdown.",
       "features": {
-        "feature-1": "All Pro features",
-        "feature-2": "100 GB storage",
-        "feature-3": "Dedicated support",
-        "feature-4": "Enterprise-grade security",
-        "feature-5": "Advanced integrations",
-        "feature-6": "Custom branding",
-        "feature-7": "Lifetime updates"
+        "feature-1": "All Pro features, forever.",
+        "feature-2": "White-label exports for clients.",
+        "feature-3": "250 GB asset storage for images and attachments.",
+        "feature-4": "Dedicated conversion success manager.",
+        "feature-5": "SLA-backed support with direct email access.",
+        "feature-6": "Early access to new output formats.",
+        "feature-7": "Lifetime updates and improvements."
       }
     }
   },
   "CreditPackages": {
     "basic": {
       "name": "Basic",
-      "description": "Basic credits package description"
+      "description": "Perfect for quick MD to PDF or HTML exports."
     },
     "standard": {
       "name": "Standard",
-      "description": "Standard credits package description"
+      "description": "Great for weekly publishing schedules and small teams."
     },
     "premium": {
       "name": "Premium",
-      "description": "Premium credits package description"
+      "description": "Bulk credits for agencies managing client documentation."
     },
     "enterprise": {
       "name": "Enterprise",
-      "description": "Enterprise credits package description"
+      "description": "Custom volumes, SLAs, and dedicated support for large organizations."
     }
   },
   "NotFoundPage": {
     "title": "404",
-    "message": "Sorry, the page you are looking for does not exist.",
+    "message": "We couldn't find that page. Try starting a new Markdown conversion instead.",
     "backToHome": "Back to home"
   },
   "ErrorPage": {
-    "title": "Oops! Something went wrong!",
-    "tryAgain": "Try again",
+    "title": "Something went wrong",
+    "tryAgain": "Try converting again",
     "backToHome": "Back to home"
   },
   "AboutPage": {
     "title": "About",
-    "description": "This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better.",
-    "authorName": "MkSaaS",
-    "authorBio": "AI SaaS Boilerplate",
-    "introduction": "👋 Hi there! This is MkSaaS, an AI SaaS template built with modern technologies, helping you build your SaaS faster and better. If you have any questions, welcome to contact me.",
-    "talkWithMe": "Talk with me",
-    "followMe": "Follow me on X"
+    "description": "Free Markdown to PDF, HTML, Word Converter | Easy & Fast",
+    "authorName": "MD Converters Team",
+    "authorBio": "Markdown publishing made simple",
+    "introduction": "👋 Hi there! We're MD Converters, a small team obsessed with shipping beautiful docs from Markdown. We make it painless to generate PDFs, HTML pages, DOCX handoffs, and more—without leaving your browser. Reach out any time; we'd love to hear how you work.",
+    "talkWithMe": "Talk with us",
+    "followMe": "Follow MD Converters on X"
   },
   "ChangelogPage": {
     "title": "Changelog",
-    "description": "Stay up to date with the latest changes in our product",
-    "subtitle": "Stay up to date with the latest changes in our product"
+    "description": "Stay current with the improvements we ship to MD Converters.",
+    "subtitle": "Every enhancement that makes Markdown exports faster and better."
   },
   "RoadmapPage": {
     "title": "Roadmap",
-    "description": "Explore our future plans and upcoming features",
-    "subtitle": "Explore our future plans and upcoming features"
+    "description": "See what's next for our Markdown conversion toolkit.",
+    "subtitle": "Planned features, new formats, and integrations we are building."
   },
   "ContactPage": {
     "title": "Contact",
-    "description": "We'll help you find the right plan for your business",
-    "subtitle": "We'll help you find the right plan for your business",
+    "description": "Need a custom conversion workflow? Let our team help.",
+    "subtitle": "We're here to talk Markdown, publishing, and integrations.",
     "form": {
       "title": "Contact Us",
-      "description": "If you have any questions or feedback, please reach out to our team",
+      "description": "Tell us about your documentation goals and we'll respond within one business day.",
       "name": "Name",
       "email": "Email",
-      "message": "Message",
-      "submit": "Submit",
-      "submitting": "Submitting...",
-      "success": "Message sent successfully",
-      "fail": "Failed to send message",
-      "nameMinLength": "Name must be at least 3 characters",
-      "nameMaxLength": "Name must not exceed 30 characters",
-      "emailValidation": "Please enter a valid email address",
-      "messageMinLength": "Message must be at least 10 characters",
-      "messageMaxLength": "Message must not exceed 500 characters"
+      "message": "How can we help?",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success": "Message sent successfully. We'll be in touch soon.",
+      "fail": "We couldn't send your message. Please try again.",
+      "nameMinLength": "Name must be at least 3 characters.",
+      "nameMaxLength": "Name must not exceed 30 characters.",
+      "emailValidation": "Please enter a valid email address.",
+      "messageMinLength": "Message must be at least 10 characters.",
+      "messageMaxLength": "Message must not exceed 500 characters."
     }
   },
   "WaitlistPage": {
     "title": "Waitlist",
-    "description": "Join our waitlist for the launch of our product",
-    "subtitle": "Join our waitlist for the launch of our product",
+    "description": "Join the waitlist for upcoming MD Converters Labs features.",
+    "subtitle": "Be first to access new formats, AI tooling, and integrations.",
     "form": {
       "title": "Join Our Waitlist",
-      "description": "We will notify you when we launch our product",
+      "description": "Drop your email and we'll notify you as soon as new capabilities go live.",
       "email": "Email",
-      "subscribe": "Subscribe",
-      "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "subscribe": "Join waitlist",
+      "subscribing": "Adding you...",
+      "success": "You're on the list! We'll keep you posted.",
+      "fail": "We couldn't add you just now. Please try again.",
+      "emailValidation": "Please enter a valid email address."
     }
   },
   "Newsletter": {
     "title": "Newsletter",
-    "subtitle": "Join the community",
-    "description": "Subscribe to our newsletter for the latest news and updates",
+    "subtitle": "Stay in the loop",
+    "description": "Subscribe for conversion tips, release notes, and workflow inspiration.",
     "form": {
       "email": "Email",
       "subscribe": "Subscribe",
       "subscribing": "Subscribing...",
-      "success": "Subscribed successfully",
-      "fail": "Failed to subscribe",
-      "emailValidation": "Please enter a valid email address"
+      "success": "Thanks for subscribing!",
+      "fail": "Subscription failed. Please try again.",
+      "emailValidation": "Please enter a valid email address."
     }
   },
   "AuthPage": {
     "login": {
-      "title": "Login",
-      "welcomeBack": "Welcome back",
+      "title": "Log in",
+      "welcomeBack": "Welcome back! Continue your Markdown conversions.",
       "email": "Email",
       "password": "Password",
-      "signIn": "Sign In",
-      "signUpHint": "Don't have an account? Sign up",
-      "forgotPassword": "Forgot Password?",
-      "signInWithGoogle": "Sign In with Google",
-      "signInWithGitHub": "Sign In with GitHub",
+      "signIn": "Sign in",
+      "signUpHint": "New to MD Converters? Create an account.",
+      "forgotPassword": "Forgot password?",
+      "signInWithGoogle": "Continue with Google",
+      "signInWithGitHub": "Continue with GitHub",
       "showPassword": "Show password",
       "hidePassword": "Hide password",
       "or": "Or continue with",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "emailRequired": "Please enter your email.",
+      "passwordRequired": "Please enter your password.",
+      "captchaInvalid": "Captcha verification failed.",
+      "captchaError": "Captcha verification error."
     },
     "register": {
-      "title": "Register",
-      "createAccount": "Create an account",
+      "title": "Sign up",
+      "createAccount": "Create your MD Converters account",
       "name": "Name",
       "email": "Email",
       "password": "Password",
-      "signUp": "Sign Up",
-      "signInHint": "Already have an account? Sign in",
-      "checkEmail": "Please check your email inbox",
+      "signUp": "Sign up",
+      "signInHint": "Already using MD Converters? Log in.",
+      "checkEmail": "Check your inbox to confirm your account.",
       "showPassword": "Show password",
       "hidePassword": "Hide password",
-      "nameRequired": "Please enter your name",
-      "emailRequired": "Please enter your email",
-      "passwordRequired": "Please enter your password",
-      "captchaInvalid": "Captcha verification failed",
-      "captchaError": "Captcha verification error"
+      "nameRequired": "Please enter your name.",
+      "emailRequired": "Please enter your email.",
+      "passwordRequired": "Please enter your password.",
+      "captchaInvalid": "Captcha verification failed.",
+      "captchaError": "Captcha verification error."
     },
     "forgotPassword": {
-      "title": "Forgot Password",
+      "title": "Reset your password",
       "email": "Email",
       "send": "Send reset link",
       "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox",
-      "emailRequired": "Please enter your email"
+      "checkEmail": "Check your inbox for reset instructions.",
+      "emailRequired": "Please enter your email."
     },
     "resetPassword": {
-      "title": "Reset Password",
+      "title": "Choose a new password",
       "password": "Password",
-      "reset": "Reset password",
+      "reset": "Update password",
       "backToLogin": "Back to login",
       "showPassword": "Show password",
       "hidePassword": "Hide password",
-      "minLength": "Password must be at least 8 characters"
+      "minLength": "Password must be at least 8 characters."
     },
     "error": {
-      "title": "Oops! Something went wrong!",
+      "title": "Something went wrong",
       "tryAgain": "Please try again.",
       "backToLogin": "Back to login",
-      "checkEmail": "Please check your email inbox"
+      "checkEmail": "Check your inbox and try again."
     },
     "common": {
       "termsOfService": "Terms of Service",
       "privacyPolicy": "Privacy Policy",
-      "byClickingContinue": "By clicking continue, you agree to our ",
+      "byClickingContinue": "By continuing you agree to our ",
       "and": " and "
     }
   },
   "BlogPage": {
     "title": "Blog",
-    "description": "Latest news and updates from our team",
-    "subtitle": "Latest news and updates from our team",
+    "description": "Release notes, publishing insights, and Markdown workflows.",
+    "subtitle": "Tips, tutorials, and stories from the MD Converters team.",
     "author": "Author",
     "categories": "Categories",
     "tableOfContents": "Table of Contents",
     "readTime": "{minutes} min read",
     "all": "All",
     "noPostsFound": "No posts found",
-    "allPosts": "All Posts",
-    "morePosts": "More Posts"
+    "allPosts": "All posts",
+    "morePosts": "More posts"
   },
   "DocsPage": {
     "toc": "Table of Contents",
@@ -297,21 +297,21 @@
     "previousPage": "Previous",
     "nextPage": "Next",
     "chooseLanguage": "Select language",
-    "title": "MkSaaS Docs",
-    "homepage": "Homepage"
+    "title": "MD Converters Docs",
+    "homepage": "Docs home"
   },
   "PremiumContent": {
-    "title": "Unlock Premium Content",
-    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
-    "upgradeCta": "Upgrade Now",
-    "benefit1": "All premium content",
-    "benefit2": "Exclusive content",
+    "title": "Unlock premium tutorials",
+    "description": "Upgrade to Pro to access advanced conversion recipes, automation blueprints, and expert support.",
+    "upgradeCta": "Upgrade now",
+    "benefit1": "Advanced conversion walkthroughs",
+    "benefit2": "Branded template library",
     "benefit3": "Cancel anytime",
-    "signIn": "Sign In",
+    "signIn": "Sign in",
     "loginRequired": "Sign in to continue reading",
-    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
-    "checkingAccess": "Checking access...",
-    "loadingContent": "Loading full content..."
+    "loginDescription": "This guide is for Pro members. Log in to access the full content.",
+    "checkingAccess": "Checking membership status...",
+    "loadingContent": "Loading premium content..."
   },
   "Marketing": {
     "navbar": {
@@ -328,27 +328,27 @@
         "title": "Docs"
       },
       "ai": {
-        "title": "AI Tools",
+        "title": "Converters",
         "items": {
           "text": {
-            "title": "AI Text",
-            "description": "Show how to use AI to write stunning text"
+            "title": "MD to PDF",
+            "description": "Create print-ready PDFs with beautiful typography."
           },
           "image": {
-            "title": "AI Image",
-            "description": "Show how to use AI to generate beautiful images"
+            "title": "MD to HTML",
+            "description": "Publish responsive HTML pages with zero manual styling."
           },
           "chat": {
-            "title": "AI Chat",
-            "description": "Show how to use AI to chat with your customers"
+            "title": "MD to Word",
+            "description": "Export fully editable DOCX files for stakeholders."
           },
           "video": {
-            "title": "AI Video",
-            "description": "Show how to use AI to generate amazing videos"
+            "title": "MD to Slides",
+            "description": "Turn Markdown outlines into shareable presentations."
           },
           "audio": {
-            "title": "AI Audio",
-            "description": "Show how to use AI to generate wonderful audio"
+            "title": "API Access",
+            "description": "Automate conversions with our REST API and CLI."
           }
         }
       },
@@ -357,35 +357,35 @@
         "items": {
           "about": {
             "title": "About",
-            "description": "Learn more about our company, mission, and values"
+            "description": "Learn about our mission to simplify publishing."
           },
           "contact": {
             "title": "Contact",
-            "description": "Get in touch with our team for support or inquiries"
+            "description": "Reach our team for support and custom workflows."
           },
           "waitlist": {
             "title": "Waitlist",
-            "description": "Join our waitlist for latest news and updates"
+            "description": "Join the list for upcoming formats and features."
           },
           "changelog": {
             "title": "Changelog",
-            "description": "See the latest updates to our products"
+            "description": "Track everything we ship."
           },
           "roadmap": {
             "title": "Roadmap",
-            "description": "Explore our future plans and upcoming features"
+            "description": "See what we're building next."
           },
           "cookiePolicy": {
             "title": "Cookie Policy",
-            "description": "How we use the cookies on our website"
+            "description": "Understand how we use cookies on mdconverters.com."
           },
           "privacyPolicy": {
             "title": "Privacy Policy",
-            "description": "How we protect and handle your data"
+            "description": "Learn how we protect and handle your data."
           },
           "termsOfService": {
             "title": "Terms of Service",
-            "description": "The legal agreement between you and our company"
+            "description": "Review the legal agreement between you and MD Converters."
           }
         }
       },
@@ -393,7 +393,7 @@
         "title": "Blocks",
         "items": {
           "magicui": {
-            "title": "MagicUI Blocks"
+            "title": "UI Blocks"
           },
           "hero-section": {
             "title": "Hero Blocks"
@@ -402,7 +402,7 @@
             "title": "Logo Cloud Blocks"
           },
           "integrations": {
-            "title": "Integrations Blocks"
+            "title": "Integration Blocks"
           },
           "features": {
             "title": "Features Blocks"
@@ -417,7 +417,7 @@
             "title": "Team Blocks"
           },
           "testimonials": {
-            "title": "Testimonials Blocks"
+            "title": "Testimonial Blocks"
           },
           "callToAction": {
             "title": "Call to Action Blocks"
@@ -450,7 +450,7 @@
       }
     },
     "footer": {
-      "tagline": "Make AI SaaS in days, simply and effortlessly",
+      "tagline": "Convert Markdown to polished docs in seconds.",
       "product": {
         "title": "Product",
         "items": {
@@ -486,7 +486,7 @@
       }
     },
     "avatar": {
-      "dashboard": "Dashboard",
+      "dashboard": "Workspace",
       "billing": "Billing",
       "credits": "Credits",
       "settings": "Settings"
@@ -494,52 +494,52 @@
   },
   "Dashboard": {
     "dashboard": {
-      "title": "Dashboard"
+      "title": "Workspace"
     },
     "admin": {
-      "title": "Admin",
+      "title": "Team admin",
       "users": {
         "title": "Users",
-        "fakeData": "Note: Faked data for demonstration, some features are disabled",
-        "error": "Failed to get users",
-        "search": "Search users...",
+        "fakeData": "Demo data for the sandbox. Some admin actions are disabled.",
+        "error": "Failed to load users.",
+        "search": "Search teammates...",
         "columns": {
           "columns": "Columns",
           "name": "Name",
           "email": "Email",
           "role": "Role",
-          "createdAt": "Created At",
+          "createdAt": "Joined",
           "customerId": "Customer ID",
           "status": "Status",
-          "banReason": "Ban Reason",
-          "banExpires": "Ban Expires"
+          "banReason": "Suspend reason",
+          "banExpires": "Suspension ends"
         },
         "admin": "Admin",
-        "user": "User",
+        "user": "Member",
         "email": {
-          "verified": "Email Verified",
-          "unverified": "Email Unverified"
+          "verified": "Email verified",
+          "unverified": "Email unverified"
         },
         "emailCopied": "Email copied to clipboard",
-        "banned": "Banned",
+        "banned": "Suspended",
         "active": "Active",
-        "joined": "Joined at",
-        "updated": "Updated at",
+        "joined": "Joined",
+        "updated": "Updated",
         "ban": {
-          "reason": "Ban Reason",
-          "reasonPlaceholder": "Enter the reason for banning this user",
-          "defaultReason": "Spamming",
+          "reason": "Suspend reason",
+          "reasonPlaceholder": "Describe why this account is suspended",
+          "defaultReason": "Policy violation",
           "never": "Never",
-          "expires": "Ban Expires",
-          "selectDate": "Select Date",
-          "button": "Ban User",
-          "success": "User has been banned",
-          "error": "Failed to ban user"
+          "expires": "Suspension ends",
+          "selectDate": "Select date",
+          "button": "Suspend user",
+          "success": "User has been suspended.",
+          "error": "Failed to suspend user."
         },
         "unban": {
-          "button": "Unban User",
-          "success": "User has been unbanned",
-          "error": "Failed to unban user"
+          "button": "Reinstate user",
+          "success": "User has been reinstated.",
+          "error": "Failed to reinstate user."
         },
         "close": "Close"
       }
@@ -548,32 +548,32 @@
       "title": "Settings",
       "profile": {
         "title": "Profile",
-        "description": "Manage your account information",
+        "description": "Update the details your teammates and exports display.",
         "avatar": {
           "title": "Avatar",
-          "description": "Click upload button to upload a custom one",
-          "recommendation": "An avatar is optional but strongly recommended",
+          "description": "Upload an avatar to personalize shared exports.",
+          "recommendation": "Optional but recommended for shared workspaces.",
           "uploading": "Uploading...",
-          "uploadAvatar": "Upload Avatar",
-          "success": "Avatar updated successfully",
-          "fail": "Failed to update avatar"
+          "uploadAvatar": "Upload avatar",
+          "success": "Avatar updated successfully.",
+          "fail": "Avatar update failed."
         },
         "name": {
           "title": "Name",
-          "description": "Please enter your display name",
+          "description": "Set the display name shown on exports and shared folders.",
           "placeholder": "Enter your name",
-          "minLength": "Please use 3 characters at minimum",
-          "maxLength": "Please use 30 characters at maximum",
-          "hint": "Please use 3-30 characters for your name",
-          "success": "Name updated successfully",
-          "fail": "Failed to update name",
+          "minLength": "Please use at least 3 characters.",
+          "maxLength": "Please use no more than 30 characters.",
+          "hint": "Names must be between 3 and 30 characters.",
+          "success": "Name updated successfully.",
+          "fail": "Failed to update name.",
           "saving": "Saving...",
           "save": "Save"
         }
       },
       "billing": {
         "title": "Billing",
-        "description": "Manage your subscription and billing details",
+        "description": "Manage your MD Converters subscription and invoices.",
         "status": {
           "active": "Active",
           "trial": "Trial",
@@ -586,109 +586,109 @@
           "oneTime": "one-time"
         },
         "currentPlan": {
-          "title": "Current Plan",
-          "description": "Your current plan details",
-          "noPlan": "You have no active plan"
+          "title": "Current plan",
+          "description": "Your subscription details.",
+          "noPlan": "You don't have an active plan yet."
         },
         "CustomerPortalButton": {
           "loading": "Loading...",
-          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+          "createCustomerPortalFailed": "Unable to open the billing portal."
         },
         "price": "Price:",
         "periodStartDate": "Period start date:",
         "periodEndDate": "Period end date:",
         "trialEnds": "Trial ends:",
-        "freePlanMessage": "You are currently on the free plan with limited features",
-        "lifetimeMessage": "You have lifetime access to all premium features",
-        "manageSubscription": "Manage Subscription and Billing",
-        "manageBilling": "Manage Billing",
-        "upgradePlan": "Upgrade Plan",
+        "freePlanMessage": "You're on the free plan with limited Markdown exports.",
+        "lifetimeMessage": "You have lifetime access to every MD Converters feature.",
+        "manageSubscription": "Manage subscription and billing",
+        "manageBilling": "Manage billing",
+        "upgradePlan": "Upgrade plan",
         "retry": "Retry",
-        "errorMessage": "Failed to get data",
-        "paymentSuccess": "Payment success"
+        "errorMessage": "Failed to load billing data.",
+        "paymentSuccess": "Payment successful."
       },
       "payment": {
         "processing": {
-          "title": "Processing Payment",
-          "description": "Please wait while we confirm your payment..."
+          "title": "Processing payment",
+          "description": "Sit tight while we confirm your payment."
         },
         "success": {
-          "title": "Payment Success",
+          "title": "Payment successful",
           "description": "Redirecting automatically..."
         },
         "failed": {
-          "title": "Payment Failed",
-          "description": "There was an issue processing your payment."
+          "title": "Payment failed",
+          "description": "Something went wrong while processing your payment."
         },
         "timeout": {
-          "title": "Processing Timeout",
-          "description": "Payment processing is taking longer than expected."
+          "title": "Processing timeout",
+          "description": "This is taking longer than expected. We'll keep trying."
         },
         "retry": "Retry"
       },
       "credits": {
         "title": "Credits",
-        "description": "Manage your credit transactions",
+        "description": "Monitor and top up your conversion credits.",
         "tabs": {
           "balance": "Balance",
           "transactions": "Transactions"
         },
         "balance": {
-          "title": "Credit Balance",
-          "description": "Your credit balance",
+          "title": "Credit balance",
+          "description": "Your available conversion credits.",
           "credits": "Credits",
-          "creditsDescription": "You have {credits} credits",
+          "creditsDescription": "You have {credits} credits remaining.",
           "creditsExpired": "Credits expired",
-          "creditsAdded": "Credits have been added to your account",
-          "viewTransactions": "View Credit Transactions",
+          "creditsAdded": "Credits were added to your account.",
+          "viewTransactions": "View credit history",
           "retry": "Retry",
-          "expiringCredits": "{credits} credits expiring in the next {days} days"
+          "expiringCredits": "{credits} credits expiring within the next {days} days."
         },
         "packages": {
-          "title": "Credit Packages",
-          "description": "Purchase additional credits to use our services",
+          "title": "Credit packages",
+          "description": "Purchase additional credits whenever you need them.",
           "purchase": "Purchase",
           "processing": "Processing...",
           "popular": "Popular",
-          "completePurchase": "Complete Your Purchase",
-          "failedToFetchCredits": "Failed to fetch credits",
-          "failedToCreatePaymentIntent": "Failed to create payment intent",
-          "failedToInitiatePayment": "Failed to initiate payment",
+          "completePurchase": "Complete your purchase",
+          "failedToFetchCredits": "Failed to load credit packages.",
+          "failedToCreatePaymentIntent": "Failed to create payment intent.",
+          "failedToInitiatePayment": "Failed to initiate payment.",
           "cancel": "Cancel",
-          "purchaseFailed": "Purchase credits failed",
-          "checkoutFailed": "Failed to create checkout session",
+          "purchaseFailed": "We couldn't process that purchase.",
+          "checkoutFailed": "Failed to create checkout session.",
           "loading": "Loading...",
           "pay": "Pay"
         },
         "transactions": {
-          "title": "Credit Transactions",
-          "error": "Failed to get credit transactions",
+          "title": "Credit history",
+          "error": "Failed to load credit transactions.",
           "search": "Search credit transactions...",
-          "paymentIdCopied": "Payment ID copied to clipboard",
+          "paymentIdCopied": "Payment ID copied to clipboard.",
           "columns": {
             "columns": "Columns",
             "id": "ID",
             "type": "Type",
             "description": "Description",
             "amount": "Amount",
-            "remainingAmount": "Remaining Amount",
+            "remainingAmount": "Remaining amount",
             "paymentId": "Payment ID",
-            "expirationDate": "Expiration Date",
-            "expirationDateProcessedAt": "Expiration Date Processed At",
-            "createdAt": "Created At",
-            "updatedAt": "Updated At"
+            "expirationDate": "Expiration date",
+            "expirationDateProcessedAt": "Expiration processed at",
+            "createdAt": "Created at",
+            "updatedAt": "Updated at"
           },
           "types": {
-            "MONTHLY_REFRESH": "Monthly Refresh",
-            "REGISTER_GIFT": "Register Gift",
-            "PURCHASE": "Purchased Credits",
-            "USAGE": "Consumed Credits",
-            "EXPIRE": "Expired Credits",
-            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
-            "LIFETIME_MONTHLY": "Lifetime Monthly"
+            "MONTHLY_REFRESH": "Monthly refresh",
+            "REGISTER_GIFT": "Signup bonus",
+            "PURCHASE": "Purchased credits",
+            "USAGE": "Consumed credits",
+            "EXPIRE": "Expired credits",
+            "SUBSCRIPTION_RENEWAL": "Subscription renewal",
+            "LIFETIME_MONTHLY": "Lifetime monthly refresh"
           },
           "detailViewer": {
-            "title": "Credit Transaction Detail",
+            "title": "Credit transaction details",
             "close": "Close"
           },
           "expired": "Expired",
@@ -696,403 +696,415 @@
         }
       },
       "notification": {
-        "title": "Notification",
-        "description": "Manage your notification preferences",
+        "title": "Notifications",
+        "description": "Decide which product updates and export summaries you receive.",
         "newsletter": {
-          "title": "Newsletter Subscription",
-          "description": "Manage your newsletter subscription preferences",
-          "label": "Subscribe to newsletter",
-          "hint": "You can change your subscription preferences at any time",
-          "emailRequired": "Email is required to subscribe to the newsletter",
-          "subscribeSuccess": "Successfully subscribed to the newsletter",
-          "subscribeFail": "Failed to subscribe to the newsletter",
-          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
-          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
-          "error": "An error occurred while updating your subscription"
+          "title": "Newsletter subscription",
+          "description": "Manage your MD Converters newsletter preferences.",
+          "label": "Subscribe to the newsletter",
+          "hint": "Update these preferences any time.",
+          "emailRequired": "Email is required to subscribe.",
+          "subscribeSuccess": "Newsletter subscription updated.",
+          "subscribeFail": "Unable to update subscription.",
+          "unsubscribeSuccess": "You unsubscribed from the newsletter.",
+          "unsubscribeFail": "We couldn't unsubscribe you.",
+          "error": "Something went wrong while saving your preferences."
         }
       },
       "security": {
         "title": "Security",
-        "description": "Manage your security settings",
+        "description": "Protect your account with strong credentials.",
         "updatePassword": {
-          "title": "Change Password",
-          "description": "Enter your current password and a new password",
-          "currentPassword": "Current Password",
-          "currentRequired": "Current password is required",
-          "newPassword": "New Password",
-          "newMinLength": "Password must be at least 8 characters",
-          "hint": "Please use at least 8 characters for password",
+          "title": "Change password",
+          "description": "Enter your current password and a new password.",
+          "currentPassword": "Current password",
+          "currentRequired": "Current password is required.",
+          "newPassword": "New password",
+          "newMinLength": "Password must be at least 8 characters.",
+          "hint": "Use at least 8 characters including symbols.",
           "showPassword": "Show password",
           "hidePassword": "Hide password",
-          "success": "Password updated successfully",
-          "fail": "Failed to update password",
+          "success": "Password updated successfully.",
+          "fail": "Password update failed.",
           "saving": "Saving...",
           "save": "Save"
         },
         "resetPassword": {
-          "title": "Reset Password",
-          "description": "Reset password to enable email login",
-          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
-          "button": "Reset Password"
+          "title": "Reset password",
+          "description": "Reset your password to enable email sign-in.",
+          "info": "We'll send an email with instructions to reset your password so you can sign in alongside social providers.",
+          "button": "Send reset email"
         },
         "deleteAccount": {
-          "title": "Delete Account",
-          "description": "Permanently remove your account and all of its contents",
-          "warning": "This action is not reversible, so please continue with caution",
-          "button": "Delete Account",
-          "confirmTitle": "Delete Account",
+          "title": "Delete account",
+          "description": "Permanently delete your account and every export.",
+          "warning": "This action cannot be undone. Proceed carefully.",
+          "button": "Delete account",
+          "confirmTitle": "Delete account",
           "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
           "confirm": "Delete",
           "cancel": "Cancel",
           "deleting": "Deleting...",
-          "success": "Account deleted successfully",
-          "fail": "Failed to delete account"
+          "success": "Account deleted successfully.",
+          "fail": "We couldn't delete your account."
         }
       }
     },
     "upgrade": {
       "title": "Upgrade",
-      "description": "Upgrade to Pro to access all features",
-      "button": "Upgrade"
+      "description": "Unlock bulk conversions, custom branding, and automation with MD Converters Pro.",
+      "button": "Upgrade now"
     }
   },
   "Mail": {
     "common": {
       "team": "{name} Team",
-      "copyright": "©️ {year} All Rights Reserved."
+      "copyright": "© {year} MD Converters. All rights reserved."
     },
     "verifyEmail": {
       "title": "Hi, {name}.",
-      "body": "Please click the link below to verify your email address.",
+      "body": "Thanks for joining MD Converters. Confirm your email to start converting Markdown to beautiful outputs.",
       "confirmEmail": "Confirm email",
-      "subject": "Verify your email"
+      "subject": "Verify your MD Converters email"
     },
     "forgotPassword": {
       "title": "Hi, {name}.",
-      "body": "Please click the link below to reset your password.",
+      "body": "We received a request to reset your MD Converters password. Click the link below to choose a new one.",
       "resetPassword": "Reset password",
-      "subject": "Reset your password"
+      "subject": "Reset your MD Converters password"
     },
     "subscribeNewsletter": {
-      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
-      "subject": "Thanks for subscribing"
+      "body": "Thanks for subscribing to MD Converters updates. We'll share new features, tips, and resources soon.",
+      "subject": "Welcome to the MD Converters newsletter"
     },
     "contactMessage": {
       "name": "Name: {name}",
       "email": "Email: {email}",
       "message": "Message: {message}",
-      "subject": "Contact Message from Website"
+      "subject": "New message from MD Converters website"
     }
   },
   "HomePage": {
-    "title": "MkSaaS",
-    "description": "Make AI SaaS in days, simply and effortlessly",
+    "title": "MD Converters",
+    "description": "Convert Markdown to PDF, HTML, Word, EPUB, and more in seconds.",
     "hero": {
-      "title": "Make AI SaaS in days, simply and effortlessly",
-      "description": "The is a demo website built with MkSaaS, a Next.js SaaS boilerplate to help you build your AI SaaS faster and better.",
-      "introduction": "Introducing MkSaaS Boilerplate",
-      "primary": "Get Started",
-      "secondary": "See Demo"
+      "title": "MD Converters: MD to pdf",
+      "description": "Convert Markdown to PDF, HTML, Word, EPUB, and more in seconds. 100% free, simple, and high-quality conversions.",
+      "introduction": "Meet MD Converters",
+      "primary": "Start converting",
+      "secondary": "View sample exports"
     },
     "logocloud": {
-      "title": "Your favorite companies are our partners"
+      "title": "Trusted by leading teams"
     },
     "integration": {
       "title": "Integrations",
-      "subtitle": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "learnMore": "Learn More",
+      "subtitle": "Work where your Markdown already lives",
+      "description": "Connect MD Converters to your content sources to automate exports and keep stakeholders synced.",
+      "learnMore": "Learn more",
       "items": {
         "item-1": {
-          "title": "Google Gemini",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "GitHub",
+          "description": "Sync README files and auto-publish release notes."
         },
         "item-2": {
-          "title": "Replit",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "Notion",
+          "description": "Convert Notion docs into polished PDFs and HTML microsites."
         },
         "item-3": {
-          "title": "MagicUI",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "Confluence",
+          "description": "Export wiki pages to shareable DOCX handoffs for stakeholders."
         },
         "item-4": {
-          "title": "VSCodium",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "Google Drive",
+          "description": "Watch folders for new Markdown and deliver formatted exports."
         },
         "item-5": {
-          "title": "MediaWiki",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "Dropbox",
+          "description": "Keep your distributed team in sync with automated conversions."
         },
         "item-6": {
-          "title": "Google PaLM",
-          "description": "Amet praesentium deserunt ex commodi tempore fuga voluptatem."
+          "title": "Slack",
+          "description": "Send exports and conversion summaries straight to your channels."
         }
       }
     },
     "integration2": {
-      "title": "Integrate with your favorite tools",
-      "description": "Connect seamlessly with popular platforms and services to enhance your workflow.",
-      "primaryButton": "Get Started",
-      "secondaryButton": "See Demo"
+      "title": "Bring MD Converters into your workflow",
+      "description": "Pull Markdown from repos, knowledge bases, or folders and push exports to the tools your team already uses.",
+      "primaryButton": "Connect a source",
+      "secondaryButton": "Explore integrations"
     },
     "features": {
-      "title": "Features",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "Why teams choose MD Converters",
+      "subtitle": "Publish quality docs without tedious formatting",
+      "description": "Every export is tuned for readability, accessibility, and branding out of the box.",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here, make it as detailed as possible, make it more attractive to users"
+          "title": "Pixel-perfect PDFs",
+          "description": "Generate print-ready PDFs with consistent typography, page numbering, and clickable tables of contents."
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here, make it as detailed as possible, make it more attractive to users"
+          "title": "Responsive HTML exports",
+          "description": "Deliver SEO-friendly web pages that preserve your Markdown structure and support custom domains."
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here, make it as detailed as possible, make it more attractive to users"
+          "title": "Stakeholder-friendly DOCX",
+          "description": "Give teammates fully editable Word documents that mirror your brand guidelines."
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here, make it as detailed as possible, make it more attractive to users"
+          "title": "Live preview editor",
+          "description": "Preview formatting changes in real time with syntax highlighting and table controls."
         }
       }
     },
     "features2": {
-      "title": "Features2",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
-      "feature-1": "Product Feature One",
-      "feature-2": "Product Feature Two",
-      "feature-3": "Product Feature Three",
-      "feature-4": "Product Feature Four"
+      "title": "Everything you need to ship docs fast",
+      "subtitle": "Focus on writing—we handle the rest",
+      "description": "Powerful defaults, team features, and guardrails that scale with your documentation pipeline.",
+      "feature-1": "Instant MD to PDF, HTML, DOCX, EPUB, and PPTX exports.",
+      "feature-2": "Reusable themes and typography presets tailored to your brand.",
+      "feature-3": "Team permissions, shared history, and audit logs.",
+      "feature-4": "REST and CLI tooling for automated pipelines."
     },
     "features3": {
-      "title": "Features3",
-      "subtitle": "The features of your product",
-      "description": "Write the description of your product here",
+      "title": "Built for modern documentation teams",
+      "subtitle": "From idea to delivery in minutes",
+      "description": "MD Converters combines powerful exports with automation so you never copy-paste formatting again.",
       "items": {
         "item-1": {
-          "title": "Product Feature One",
-          "description": "Please write the detailed description of feature one here"
+          "title": "Markdown-aware parser",
+          "description": "Handles frontmatter, fenced code, callouts, and diagrams out of the box."
         },
         "item-2": {
-          "title": "Product Feature Two",
-          "description": "Please write the detailed description of feature two here"
+          "title": "Asset management",
+          "description": "Embed images, SVGs, and attachments with CDN hosting and optimization."
         },
         "item-3": {
-          "title": "Product Feature Three",
-          "description": "Please write the detailed description of feature three here"
+          "title": "Workflow automation",
+          "description": "Schedule exports or trigger them from GitHub Actions, Zapier, or our API."
         },
         "item-4": {
-          "title": "Product Feature Four",
-          "description": "Please write the detailed description of feature four here"
+          "title": "Collaboration controls",
+          "description": "Assign roles, review changes, and lock finalized exports with ease."
         },
         "item-5": {
-          "title": "Product Feature Five",
-          "description": "Please write the detailed description of feature five here"
+          "title": "Insightful analytics",
+          "description": "Track downloads and link clicks to see which docs resonate."
         },
         "item-6": {
-          "title": "Product Feature Six",
-          "description": "Please write the detailed description of feature six here"
+          "title": "Compliance ready",
+          "description": "WCAG-accessible HTML and PDF/A-compliant outputs for regulated teams."
         }
       }
     },
     "pricing": {
       "title": "Pricing",
-      "subtitle": "Pricing",
-      "description": "Choose the plan that works best for you"
+      "subtitle": "Transparent, conversion-based pricing",
+      "description": "Start free and upgrade when you need unlimited exports and advanced automation."
     },
     "faqs": {
       "title": "FAQ",
-      "subtitle": "Frequently Asked Questions",
+      "subtitle": "Frequently asked questions",
       "items": {
         "item-1": {
-          "question": "Do you offer a free trial?",
-          "answer": "Yes, we offer a 7-day free trial."
+          "question": "Is there a free plan?",
+          "answer": "Yes. The Starter plan includes 10 conversions per month across PDF, HTML, and DOCX."
         },
         "item-2": {
-          "question": "How do I cancel my subscription?",
-          "answer": "You can cancel your subscription by visiting the billing page."
+          "question": "Which formats are supported?",
+          "answer": "We currently support PDF, HTML, DOCX, EPUB, and PPTX with more formats on the roadmap."
         },
         "item-3": {
-          "question": "Can I change my plan?",
-          "answer": "Yes, you can change your plan at any time by visiting the billing page."
+          "question": "Can I automate exports?",
+          "answer": "Absolutely. Use our REST API, CLI, or GitHub Action to trigger conversions automatically."
         },
         "item-4": {
-          "question": "What is the refund policy?",
-          "answer": "We offer a 30-day money-back guarantee if you are not happy with our product."
+          "question": "How long are files stored?",
+          "answer": "Exports remain available for 30 days by default, and you can enforce custom retention policies."
         },
         "item-5": {
-          "question": "Can't find what you're looking for?",
-          "answer": "Please contact our customer support team at support@mksaas.com"
+          "question": "how to convert md to pdf",
+          "answer": "Open MD Converters, upload your .md file, choose MD to PDF, and download the finished PDF in seconds."
+        },
+        "item-6": {
+          "question": "how to convert pdf to md",
+          "answer": "Open MD Converters, upload your PDF, select PDF to MD, and download the Markdown file once processing completes."
+        },
+        "item-7": {
+          "question": "does ai know that i am using markdown",
+          "answer": "Yes. Our AI tools read your Markdown structure, so suggestions stay aware of headings, code blocks, and tables."
+        },
+        "item-8": {
+          "question": "what is markdown",
+          "answer": "Markdown is a lightweight markup language that lets you format text with simple symbols for headings, lists, links, and code."
         }
       }
     },
     "testimonials": {
-      "title": "Testimonials",
-      "subtitle": "What our customers are saying",
+      "title": "Loved by documentation teams",
+      "subtitle": "See how teams ship polished outputs with MD Converters.",
       "items": {
         "item-1": {
-          "name": "Jonathan Yombo",
-          "role": "Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/1.jpg",
-          "quote": "MkSaaS is really extraordinary and very practical, no need to break your head. A real gold mine."
+          "name": "Sasha Morgan",
+          "role": "Technical Writer, Deployly",
+          "image": "https://randomuser.me/api/portraits/women/1.jpg",
+          "quote": "MD Converters handles every md to pdf export for our release notes without me touching InDesign—massive time saver."
         },
         "item-2": {
-          "name": "Yves Kalume",
-          "role": "GDE - Android",
-          "image": "https://randomuser.me/api/portraits/men/6.jpg",
-          "quote": "With no experience in webdesign I just redesigned my entire website in a few minutes with tailwindcss thanks to MkSaaS."
+          "name": "Diego Alvarez",
+          "role": "Head of Documentation, Shipline",
+          "image": "https://randomuser.me/api/portraits/men/32.jpg",
+          "quote": "When teammates ask how to open Markdown file drafts, I point them to MD Converters and the automated HTML exports from GitHub."
         },
         "item-3": {
-          "name": "Yucel Faruksahan",
-          "role": "Tailkits Creator",
-          "image": "https://randomuser.me/api/portraits/men/7.jpg",
-          "quote": "Great work on MkSaaS template. This is one of the best personal website that I have seen so far :)"
+          "name": "Priya Natarajan",
+          "role": "Developer Advocate, ByteForge",
+          "image": "https://randomuser.me/api/portraits/women/45.jpg",
+          "quote": "We add tags in Obsidian Markdown for organization and let MD Converters push those same notes to polished DOCX handoffs."
         },
         "item-4": {
-          "name": "Anonymous author",
-          "role": "Product Manager",
-          "image": "https://randomuser.me/api/portraits/men/8.jpg",
-          "quote": "I downloaded the one of MkSaaS template which is very clear to understand at the start and you could modify the codes/blocks to fit perfectly on your purpose of the page."
+          "name": "Owen Chen",
+          "role": "Product Marketing Manager, Alloy",
+          "image": "https://randomuser.me/api/portraits/men/41.jpg",
+          "quote": "Our Upwork proposal responses use Markdown—batch conversions mean I can hand polished PDFs to the field team before lunch."
         },
         "item-5": {
-          "name": "Shekinah Tshiokufila",
-          "role": "Senior Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/4.jpg",
-          "quote": "MkSaaS is redefining the standard of web design, with these blocks it provides an easy and efficient way for those who love beauty but may lack the time to implement it."
+          "name": "Elena Rossi",
+          "role": "Founder, Crafted Docs",
+          "image": "https://randomuser.me/api/portraits/women/37.jpg",
+          "quote": "Running a documentation agency is smoother when I can flip client PDFs to MD with the pdf to md converter and reuse templates instantly."
         },
         "item-6": {
-          "name": "Oketa Fred",
-          "role": "Fullstack Developer",
-          "image": "https://randomuser.me/api/portraits/men/2.jpg",
-          "quote": "I absolutely love MkSaaS! The component blocks are beautifully designed and easy to use, which makes creating a great-looking website a breeze."
+          "name": "Marcus Green",
+          "role": "Engineering Manager, LoopAI",
+          "image": "https://randomuser.me/api/portraits/men/52.jpg",
+          "quote": "CI/CD integrations let us deploy updated HTML docs every time a pull request merges."
         },
         "item-7": {
-          "name": "Zeki",
-          "role": "Founder of ChatExtend",
-          "image": "https://randomuser.me/api/portraits/men/5.jpg",
-          "quote": "MkSaaS is the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly."
+          "name": "Linh Tran",
+          "role": "Customer Education Lead, Brightwave",
+          "image": "https://randomuser.me/api/portraits/women/65.jpg",
+          "quote": "Our onboarding guides look polished thanks to the PDF themes and accessibility checks."
         },
         "item-8": {
-          "name": "Joseph Kitheka",
-          "role": "Fullstack Developer",
-          "image": "https://randomuser.me/api/portraits/men/9.jpg",
-          "quote": "MkSaaS has transformed the way I develop web applications. Their extensive collection of UI components, blocks, and templates has significantly accelerated my workflow."
+          "name": "Hassan Rahman",
+          "role": "Solutions Architect, Nimbus",
+          "image": "https://randomuser.me/api/portraits/men/28.jpg",
+          "quote": "Clients love the interactive HTML exports and I love that it takes seconds."
         },
         "item-9": {
-          "name": "Khatab Wedaa",
-          "role": "MerakiUI Creator",
-          "image": "https://randomuser.me/api/portraits/men/10.jpg",
-          "quote": "MkSaaS is an elegant, clean, and responsive tailwind css components it's very helpful to start fast with your project."
+          "name": "Amelia Clarke",
+          "role": "Content Strategist, Launchly",
+          "image": "https://randomuser.me/api/portraits/women/23.jpg",
+          "quote": "From Markdown to EPUB and DOCX in one click—it's the publishing dream."
         },
         "item-10": {
-          "name": "Rodrigo Aguilar",
-          "role": "TailwindAwesome Creator",
-          "image": "https://randomuser.me/api/portraits/men/11.jpg",
-          "quote": "I love MkSaaS ❤️. The component blocks are well-structured, simple to use, and beautifully designed. It makes it really easy to have a good-looking website in no time."
+          "name": "Julien Moreau",
+          "role": "Technical Writer, OpenMesh",
+          "image": "https://randomuser.me/api/portraits/men/14.jpg",
+          "quote": "The CLI fits straight into our GitHub Actions pipeline. Zero manual steps."
         },
         "item-11": {
-          "name": "Eric Ampire",
-          "role": "@GoogleDevExpert for Android",
-          "image": "https://randomuser.me/api/portraits/men/12.jpg",
-          "quote": "MkSaaS templates are the perfect solution for anyone who wants to create a beautiful and functional website without any web design experience."
+          "name": "Sara Ahmed",
+          "role": "Developer Experience Manager, Fluxbit",
+          "image": "https://randomuser.me/api/portraits/women/52.jpg",
+          "quote": "Real-time previews catch formatting issues before we export, saving endless revisions."
         },
         "item-12": {
-          "name": "Roland Tubonge",
-          "role": "Software Engineer",
-          "image": "https://randomuser.me/api/portraits/men/13.jpg",
-          "quote": "MkSaaS is so well designed that even with a very poor knowledge of web design you can do miracles. Let yourself be seduced!"
+          "name": "Noah Bennett",
+          "role": "Operations Lead, BuildKit",
+          "image": "https://randomuser.me/api/portraits/men/18.jpg",
+          "quote": "Support is fantastic and the roadmap keeps delivering the formats we ask for."
         }
       }
     },
     "stats": {
-      "title": "Stats",
-      "subtitle": "MkSaaS in numbers",
-      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
+      "title": "Deliver with confidence",
+      "subtitle": "MD Converters by the numbers",
+      "description": "We obsess over reliability, accessibility, and performance so you can focus on writing.",
       "items": {
         "item-1": {
-          "title": "Stars on GitHub"
+          "title": "1.2M+ Markdown files converted"
         },
         "item-2": {
-          "title": "Active Users"
+          "title": "99.9% export success rate"
         },
         "item-3": {
-          "title": "Powered Apps"
+          "title": "4.8/5 average satisfaction score"
         }
       }
     },
     "calltoaction": {
-      "title": "Start Building",
-      "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly",
-      "primaryButton": "Get Started",
-      "secondaryButton": "See Demo"
+      "title": "Ship better docs today",
+      "description": "Upload your Markdown file and download a polished export before your coffee cools.",
+      "primaryButton": "Start converting",
+      "secondaryButton": "Talk to sales"
     }
   },
   "AITextPage": {
-    "title": "AI Text Demo",
-    "description": "Analyze web content with AI to extract key information, features, and insights",
-    "content": "Web Content Analyzer",
-    "subtitle": "Enter a website URL to get AI-powered analysis of its content",
+    "title": "AI Markdown Enhancer",
+    "description": "Polish your Markdown before exporting with AI-powered cleanup.",
+    "content": "AI Markdown Enhancer",
+    "subtitle": "Paste Markdown or a URL and let AI tidy structure, tone, and summaries.",
     "analyzer": {
-      "title": "Web Content Analyzer",
-      "description": "Analyze any website content using AI to extract structured information",
-      "placeholder": "Enter website URL (e.g., https://example.com)",
-      "button": "Analyze Website",
+      "title": "AI Markdown Enhancer",
+      "description": "Automatically fix headings, generate summaries, and surface callouts before you export.",
+      "placeholder": "Paste Markdown text or a URL to analyze (e.g., https://docs.example.com)",
+      "button": "Enhance Markdown",
       "loading": {
-        "scraping": "Scraping website content...",
-        "analyzing": "Analyzing content with AI..."
+        "scraping": "Gathering content...",
+        "analyzing": "Polishing Markdown with AI..."
       },
       "results": {
-        "title": "Analysis Results",
-        "newAnalysis": "Analyze Another Website",
+        "title": "Suggested improvements",
+        "newAnalysis": "Analyze another document",
         "sections": {
-          "title": "Title",
-          "description": "Description",
-          "introduction": "Introduction",
-          "features": "Features",
-          "pricing": "Pricing",
-          "useCases": "Use Cases",
-          "screenshot": "Website Screenshot"
+          "title": "Suggested title",
+          "description": "Executive summary",
+          "introduction": "Tone & structure notes",
+          "features": "Key highlights",
+          "pricing": "Call to action ideas",
+          "useCases": "Recommended next steps",
+          "screenshot": "Preview snapshot"
         }
       },
       "errors": {
-        "invalidUrl": "Please enter a valid URL starting with http:// or https://",
-        "analysisError": "Failed to analyze website. Please try again.",
-        "networkError": "Network error. Please check your connection and try again.",
-        "insufficientCredits": "Insufficient credits. Please purchase more credits to continue."
+        "invalidUrl": "Enter a valid URL starting with http:// or https://",
+        "analysisError": "We couldn't enhance that content. Please try again.",
+        "networkError": "Network error. Check your connection and retry.",
+        "insufficientCredits": "You need more credits to run this enhancement."
       }
     },
     "features": {
       "scraping": {
-        "title": "Smart Web Scraping",
-        "description": "Advanced web scraping technology extracts clean, structured content from any website"
+        "title": "Smart parsing",
+        "description": "Understands Markdown structure, frontmatter, code blocks, and tables."
       },
       "analysis": {
-        "title": "AI-Powered Analysis",
-        "description": "Intelligent AI analysis extracts key insights, features, and structured information"
+        "title": "AI suggestions",
+        "description": "Get headline ideas, summary bullets, and style recommendations."
       },
       "results": {
-        "title": "Structured Results",
-        "description": "Get organized, easy-to-read results with clear sections and actionable insights"
+        "title": "Ready to export",
+        "description": "Incorporate the suggestions and export to PDF, HTML, or DOCX instantly."
       }
     }
   },
   "AIImagePage": {
-    "title": "AI Image",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "title": "AI Cover Images",
+    "description": "Generate diagrams, cover images, and thumbnails for your Markdown docs in seconds."
   },
   "AIChatPage": {
-    "title": "AI Chat",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "title": "MD Converters Assistant",
+    "description": "Ask questions about conversions, templates, and automation. We're here to help."
   },
   "AIVideoPage": {
     "title": "AI Video",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "description": "Turn Markdown walkthroughs into narrated videos with upcoming MD Converters Labs features."
   },
   "AIAudioPage": {
     "title": "AI Audio",
-    "description": "MkSaaS lets you make AI SaaS in days, simply and effortlessly"
+    "description": "Generate voiceovers and audio briefings from Markdown outlines to complement your docs."
   }
 }
