@@ -6,26 +6,35 @@ FROM node:20-slim AS base
 FROM base AS deps
 WORKDIR /app
 
-# Install dependencies
-COPY package.json pnpm-lock.yaml* ./
+# Install pnpm globally first
+RUN npm install -g pnpm
+
+# Copy package files and config
+COPY package.json pnpm-lock.yaml* .npmrc* ./
 # Copy config files needed for fumadocs-mdx postinstall
 COPY source.config.ts ./
 COPY content ./content
-RUN npm install -g pnpm && pnpm i --frozen-lockfile
+
+# Install ALL dependencies (including devDependencies) for build stage
+# fumadocs-mdx needs vite during postinstall
+RUN pnpm install --frozen-lockfile --prod=false
 
 # Rebuild the source code only when needed
 FROM base AS builder
 WORKDIR /app
+
+# Install pnpm
+RUN npm install -g pnpm
+
+# Copy dependencies from deps stage
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-# Next.js collects completely anonymous telemetry data about general usage.
-# Learn more here: https://nextjs.org/telemetry
-# Uncomment the following line in case you want to disable telemetry during the build.
-# ENV NEXT_TELEMETRY_DISABLED 1
+# Disable Next.js telemetry
+ENV NEXT_TELEMETRY_DISABLED=1
 
-RUN npm install -g pnpm \
-  && DOCKER_BUILD=true pnpm build
+# Build the application
+RUN DOCKER_BUILD=true pnpm build
 
 # Production image, copy all the files and run next
 FROM base AS runner
