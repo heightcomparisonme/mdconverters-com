@@ -1,0 +1,113 @@
+.markdown-viewer-container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+.markdown-viewer-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 16px;
+	background-color: #444;
+	font-size: 12px;
+	color: #fff;
+	flex-shrink: 0;
+}
+
+.markdown-viewer-header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.markdown-viewer-header a:hover {
+	text-decoration: underline;
+}
+
+.markdown-viewer-menu-items {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+.markdown-viewer-menu-item {
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.markdown-viewer-menu-item input[type='checkbox'] {
+	vertical-align: middle;
+	margin-right: 4px;
+	margin-top: 0;
+}
+
+.markdown-viewer-split-container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	flex: 1;
+	overflow: hidden;
+}
+
+.markdown-viewer-editor-pane,
+.markdown-viewer-preview-pane {
+	height: 100%;
+	width: 50%;
+}
+
+.markdown-viewer-editor-wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+.markdown-viewer-preview-pane {
+	overflow-y: auto;
+	background-color: #fff;
+}
+
+.markdown-viewer-preview-wrapper {
+	padding: 16px;
+	min-height: 100%;
+}
+
+.markdown-viewer-split-divider {
+	width: 5px;
+	background: #ccc;
+	cursor: col-resize;
+	z-index: 1;
+	transition: background 0.2s;
+}
+
+.markdown-viewer-split-divider.hover {
+	background: #999;
+}
+
+.markdown-viewer-split-divider.active {
+	background: #666;
+}
+
+/* Dark mode support */
+.dark .markdown-viewer-header {
+	background-color: #2d2d2d;
+}
+
+.dark .markdown-viewer-preview-pane {
+	background-color: #1e1e1e;
+}
+
+.dark .markdown-viewer-split-divider {
+	background: #3e3e3e;
+}
+
+.dark .markdown-viewer-split-divider.hover {
+	background: #4e4e4e;
+}
+
+.dark .markdown-viewer-split-divider.active {
+	background: #5e5e5e;
+}
