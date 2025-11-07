@@ -50,6 +50,13 @@
       "when": 1758338199045,
       "tag": "0006_ambitious_annihilus",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1762478142582,
+      "tag": "0007_talented_wallop",
+      "breakpoints": true
     }
   ]
 }

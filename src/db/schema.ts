@@ -123,3 +123,20 @@ export const creditTransaction = pgTable("credit_transaction", {
 	creditTransactionUserIdIdx: index("credit_transaction_user_id_idx").on(table.userId),
 	creditTransactionTypeIdx: index("credit_transaction_type_idx").on(table.type),
 }));
+
+export const sharedHtml = pgTable("shared_html", {
+	id: text("id").primaryKey(),
+	shareId: text("share_id").notNull().unique(), // 短 ID 用于分享链接
+	title: text("title"),
+	markdown: text("markdown").notNull(),
+	html: text("html").notNull(),
+	userId: text("user_id").references(() => user.id, { onDelete: 'set null' }), // 可选，允许匿名分享
+	viewCount: integer("view_count").notNull().default(0),
+	expiresAt: timestamp("expires_at"), // 可选的过期时间
+	createdAt: timestamp("created_at").notNull().defaultNow(),
+	updatedAt: timestamp("updated_at").notNull().defaultNow(),
+}, (table) => ({
+	sharedHtmlShareIdIdx: index("shared_html_share_id_idx").on(table.shareId),
+	sharedHtmlUserIdIdx: index("shared_html_user_id_idx").on(table.userId),
+	sharedHtmlCreatedAtIdx: index("shared_html_created_at_idx").on(table.createdAt),
+}));

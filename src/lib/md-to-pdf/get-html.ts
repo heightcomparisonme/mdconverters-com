@@ -5,10 +5,10 @@ import { getMarked } from './get-marked';
  * Generates an HTML document from a markdown string and returns it as a string.
  */
 export function getHtml(md: string, config: Required<MdToPdfConfig>): string {
-	const marked = getMarked(config.marked_options, config.marked_extensions);
-	const htmlContent = marked.parse(md) as string;
+  const marked = getMarked(config.marked_options, config.marked_extensions);
+  const htmlContent = marked.parse(md) as string;
 
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
 <html>
 	<head>
 		<title>${config.document_title}</title>
