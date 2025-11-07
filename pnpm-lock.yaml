@@ -179,6 +179,9 @@ importers:
       '@tabler/icons-react':
         specifier: ^3.31.0
         version: 3.31.0(react@19.2.0)
+      '@tailwindcss/oxide-win32-x64-msvc':
+        specifier: 4.0.14
+        version: 4.0.14
       '@tanstack/react-query':
         specifier: ^5.85.5
         version: 5.85.5(react@19.2.0)
@@ -4034,7 +4037,6 @@ packages:
   '@tailwindcss/oxide-win32-x64-msvc@4.0.14':
     resolution: {integrity: sha512-rNXXMDJfCJLw/ZaFTOLOHoGULxyXfh2iXTGiChFiYTSgKBKQHIGEpV0yn5N25WGzJJ+VBnRjHzlmDqRV+d//oQ==}
     engines: {node: '>= 10'}
-    cpu: [x64]
     os: [win32]
 
   '@tailwindcss/oxide@4.0.14':
@@ -10706,8 +10708,7 @@ snapshots:
   '@tailwindcss/oxide-win32-arm64-msvc@4.0.14':
     optional: true
 
-  '@tailwindcss/oxide-win32-x64-msvc@4.0.14':
-    optional: true
+  '@tailwindcss/oxide-win32-x64-msvc@4.0.14': {}
 
   '@tailwindcss/oxide@4.0.14':
     optionalDependencies:

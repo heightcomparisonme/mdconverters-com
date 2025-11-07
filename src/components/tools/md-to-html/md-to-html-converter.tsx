@@ -23,7 +23,6 @@ import { marked } from 'marked';
 import { gfmHeadingId } from 'marked-gfm-heading-id';
 import { useCallback, useEffect, useState } from 'react';
 import { toast } from 'sonner';
-import TurndownService from 'turndown';
 
 // Configure marked for GitHub Flavored Markdown
 marked.use(gfmHeadingId());
@@ -72,6 +71,20 @@ console.log('Hello, World!');
 *Made with ❤️ using Markdown to HTML*
 `;
 
+const TURNDOWN_CDN_URL =
+	'https://cdn.jsdelivr.net/npm/turndown@7.2.0/dist/turndown.js';
+const TURNDOWN_SCRIPT_ID = 'turndown-cdn-script';
+
+type TurndownStatic = new () => {
+	turndown: (html: string) => string;
+};
+
+declare global {
+	interface Window {
+		TurndownService?: TurndownStatic;
+	}
+}
+
 type ViewMode = 'split' | 'editor' | 'preview';
 type ConvertMode = 'md2html' | 'html2md';
 
@@ -85,6 +98,56 @@ export function MdToHtmlConverter() {
 	const [isSaved, setIsSaved] = useState(true);
 	const [isSharing, setIsSharing] = useState(false);
 	const [removeCitations, setRemoveCitations] = useState(true);
+	const [isTurndownReady, setIsTurndownReady] = useState(false);
+
+	useEffect(() => {
+		if (
+			typeof window === 'undefined' ||
+			convertMode !== 'html2md' ||
+			isTurndownReady
+		) {
+			return;
+		}
+
+		if (window.TurndownService) {
+			setIsTurndownReady(true);
+			return;
+		}
+
+		const existingScript = document.getElementById(
+			TURNDOWN_SCRIPT_ID,
+		) as HTMLScriptElement | null;
+
+		const handleLoad = () => {
+			setIsTurndownReady(true);
+		};
+
+		const handleError = () => {
+			toast.error(
+				'Unable to load the HTML to Markdown converter. Please try again.',
+			);
+		};
+
+		const script =
+			existingScript ??
+			Object.assign(document.createElement('script'), {
+				id: TURNDOWN_SCRIPT_ID,
+				src: TURNDOWN_CDN_URL,
+				async: true,
+			});
+
+		script.addEventListener('load', handleLoad);
+		script.addEventListener('error', handleError);
+
+		if (!existingScript) {
+			document.body.appendChild(script);
+		}
+
+		return () => {
+			script.removeEventListener('load', handleLoad);
+			script.removeEventListener('error', handleError);
+		};
+	}, [convertMode, isTurndownReady]);
 
 	// Update preview whenever markdown changes
 	useEffect(() => {
@@ -115,14 +178,22 @@ export function MdToHtmlConverter() {
 				setHtml(htmlContent);
 			} else {
 				// HTML to Markdown
-				const turndownService = new TurndownService();
+				if (
+					typeof window === 'undefined' ||
+					!isTurndownReady ||
+					!window.TurndownService
+				) {
+					return;
+				}
+
+				const turndownService = new window.TurndownService();
 				const mdContent = turndownService.turndown(markdown);
 				setHtml(mdContent);
 			}
 		} catch (error) {
 			console.error('Error converting:', error);
 		}
-	}, [markdown, convertMode, removeCitations]);
+	}, [markdown, convertMode, removeCitations, isTurndownReady]);
 
 	// Auto-save indicator
 	useEffect(() => {
