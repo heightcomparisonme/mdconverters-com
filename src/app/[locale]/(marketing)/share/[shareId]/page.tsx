@@ -12,16 +12,17 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
 interface SharePageProps {
-	params: {
+	params: Promise<{
 		shareId: string;
 		locale: string;
-	};
+	}>;
 }
 
 export async function generateMetadata({
 	params,
 }: SharePageProps): Promise<Metadata> {
-	const result = await getSharedHtmlAction({ shareId: params.shareId });
+	const { shareId } = await params;
+	const result = await getSharedHtmlAction({ shareId });
 
 	if (!result?.data?.success) {
 		return {
@@ -38,7 +39,8 @@ export async function generateMetadata({
 }
 
 export default async function SharePage({ params }: SharePageProps) {
-	const result = await getSharedHtmlAction({ shareId: params.shareId });
+	const { shareId } = await params;
+	const result = await getSharedHtmlAction({ shareId });
 
 	if (!result?.data?.success || !result.data.data) {
 		notFound();
