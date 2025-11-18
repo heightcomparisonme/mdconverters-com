@@ -49,10 +49,10 @@ export enum Routes {
 
   // Tools routes
   MdViewer = '/tools/markdown-viewer',
-  MdToHtml = '/tools/markdown-to-html',
-  MdToJpg = '/tools/markdown-to-jpg',
-  MdToPdf = '/tools/markdown-to-pdf',
-  MdToImage = '/tools/markdown-to-image',
+  MdToHtml = '/tools/md-to-html',
+  MdToJpg = '/tools/md-to-jpg',
+  MdToPdf = '/tools/md-to-pdf',
+  MdToImage = '/tools/md-to-image',
   // block routes
   MagicuiBlocks = '/magicui',
   HeroBlocks = '/blocks/hero-section',
