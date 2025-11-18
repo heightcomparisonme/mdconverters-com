@@ -1,0 +1,38 @@
+User-agent: *
+Disallow: /*?*q=
+
+# Admin and Auth Routes
+Disallow: /admin
+Disallow: /auth
+Disallow: /onboarding
+Disallow: /*/admin
+Disallow: /*/auth
+Disallow: /*/onboarding
+Disallow: /auth/login
+Disallow: /auth/register
+
+# Marketing Pages
+Disallow: /pricing
+Disallow: /about
+Disallow: /contact
+Disallow: /waitlist
+Disallow: /changelog
+Disallow: /weather
+Disallow: /ai-workstation
+Disallow: /showcase
+Disallow: /comingsoon
+
+# Legal Pages
+Disallow: /privacy
+Disallow: /privacy-policy
+Disallow: /terms
+Disallow: /terms-of-service
+Disallow: /cookie
+
+# Blog
+Disallow: /blog
+Disallow: /blog/*
+
+# Docs
+Disallow: /docs
+Disallow: /docs/*

@@ -47,6 +47,12 @@ export enum Routes {
   AIVideo = '/ai/video',
   AIAudio = '/ai/audio',
 
+  // Tools routes
+  MdViewer = '/tools/markdown-viewer',
+  MdToHtml = '/tools/markdown-to-html',
+  MdToJpg = '/tools/markdown-to-jpg',
+  MdToPdf = '/tools/markdown-to-pdf',
+  MdToImage = '/tools/markdown-to-image',
   // block routes
   MagicuiBlocks = '/magicui',
   HeroBlocks = '/blocks/hero-section',

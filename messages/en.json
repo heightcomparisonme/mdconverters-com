@@ -349,6 +349,10 @@
           "audio": {
             "title": "API Access",
             "description": "Automate conversions with our REST API and CLI."
+          },
+          "jpg": {
+            "title": "MD to JPG",
+            "description": "Convert Markdown to high-quality JPG images."
           }
         }
       },

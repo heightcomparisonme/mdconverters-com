@@ -113,6 +113,7 @@
     "github-markdown-css": "^5.8.1",
     "gray-matter": "^4.0.3",
     "highlight.js": "^11.11.1",
+    "html2canvas": "^1.4.1",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.483.0",
     "marked": "^16.4.1",
